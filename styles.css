@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 800px){
+    body{
+        display: block;
+    }
+    #navbar{
+        display:flex;
+    }    
+    #navbar>ul{
+        display:flex;
+        justify-content: space-between;
+    }
+    #navbar>ul>li{
+        margin:0 5px;
+    }
+    #main-doc{
+        display:inline-block;
+    }     
+}
+#navbar{
+    padding:10px;
+}
+#navbar>ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+#navbar>ul>li>a{
+    text-decoration: none;
+}
+#main-doc{
+    padding:10px 10px 10px 20px;
+    border-left:1px solid gray;
+}
+header{
+    font-weight:700;
+}
